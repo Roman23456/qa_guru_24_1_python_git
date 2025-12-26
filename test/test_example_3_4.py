@@ -22,3 +22,4 @@ def test_selenium_web():
     driver.get(url)
     assert driver.current_url == url
     time.sleep(3)
+
