@@ -5,7 +5,7 @@ from selenium import webdriver
 
 
 @pytest.mark.first
-def test_selenium_web():
+def test_selenium_google():
     driver = webdriver.Chrome()
     url = "https://www.google.com/"
     driver.get(url)
@@ -16,7 +16,7 @@ def test_selenium_web():
 
 
 @pytest.mark.second
-def test_selenium_web():
+def test_selenium_github():
     driver = webdriver.Chrome()
     url = "https://github.com/"
     driver.get(url)
